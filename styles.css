@@ -1,0 +1,68 @@
+/*
+This is the CSS stylesheet for the resume
+Chad Coburn, 7-28-2021
+A website for the Final Project - Online Profile assignment submission in CIS-130
+*/
+
+
+
+/*Section dedicated to the base elements of the webpages */
+
+html {
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+footer {
+  text-align: center;
+  padding: 0;
+  background-image: url("code-2.jpg");
+}
+
+h2 {
+  text-shadow: 2px 2px white;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+.container img {
+  height: 550px;
+  width: 350px;
+}
+
+ul {
+  list-style: armenian;
+}
+
+
+
+/*Section dedicated some elements of the Bootstrap */
+
+.container {
+  border: 1px solid white;
+  box-shadow: 6px 6px 18px 8px black;
+  background-color: #d3d3d3;
+}
+
+.display-4 {
+  padding: 25px;
+  text-shadow: 2px 2px white;
+  font-style: italic;
+}
+
+.heading {
+  text-align: center;
+  align-items: center;
+}
+
+.navbar {
+  background-image: url("code.jpg");
+}
+
+.navbar a:hover {
+  background-color: grey;
+}
